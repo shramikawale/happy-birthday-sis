@@ -132,3 +132,22 @@ h1, h2, h3 {
   50% { transform: translateY(-200px) rotate(10deg); }
   100% { transform: translateY(0) rotate(-10deg); }
 }
+
+
+/* Music Button */
+.music-button {
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 20px 0;
+  box-shadow: 0 0 10px #ffb6c1;
+  transition: background 0.3s ease;
+}
+
+.music-button:hover {
+  background-color: #ff1493;
+}

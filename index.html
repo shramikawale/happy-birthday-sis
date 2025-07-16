@@ -31,6 +31,11 @@
       🎈🎁🧁🌸👑💐🎊🎀🩷✨
     </div>
 
+    <!-- Music Play Button -->
+    <button onclick="document.getElementById('bg-music').muted = false; document.getElementById('bg-music').play();" class="music-button">
+      ▶️ Play Birthday Music
+    </button>
+
     <!-- Comments -->
     <h2>💬 Leave Your Wishes Below</h2>
 
@@ -53,13 +58,11 @@
     </div>
   </div>
 
-<button onclick="document.getElementById('bg-music').play()">🎵 Play Birthday Music</button>
-
-<audio id="bg-music" loop>
-  <source src="happy-birthday-song.mp3" type="audio/mpeg" />
-  Your browser does not support the audio element.
-</audio>
-
+  <!-- Background Music -->
+  <audio id="bg-music" autoplay muted loop>
+    <source src="happy-birthday-song.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
 
   <!-- Cusdis Script -->
   <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
