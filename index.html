@@ -3,15 +3,23 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>🎉 Happy Birthday, Sister! 🎂</title>
+  <title>🎉 Happy Birthday, Shreejana! 🎂</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="confetti"></div>
+  <div class="sparkle"></div>
 
   <div class="container">
-    <h1>🎉 Happy Birthday, Shreejana! 🎂</h1>
+    <!-- Balloons -->
+    <div class="balloons">
+      <div class="balloon red"></div>
+      <div class="balloon blue"></div>
+      <div class="balloon yellow"></div>
+    </div>
 
+    <!-- Birthday Content -->
+    <h1>🎉 Happy Birthday, Shreejana! 🎂</h1>
     <p class="message">
       💖 Wishing you all the love, laughter, and magic in the world.<br />
       You're a light in my life, and I’m so lucky to have you as my sister! 🌈🫶
@@ -23,9 +31,9 @@
       🎈🎁🧁🌸👑💐🎊🎀🩷✨
     </div>
 
+    <!-- Comments -->
     <h2>💬 Leave Your Wishes Below</h2>
 
-    <!-- GitHub Comments via Utterances -->
     <h3>GitHub Wishers 💬</h3>
     <script src="https://utteranc.es/client.js"
             repo="shramikawale/happy-birthday-sis"
@@ -33,9 +41,8 @@
             theme="github-light"
             crossorigin="anonymous"
             async>
-    </script> 
+    </script>
 
-    <!-- Cusdis Comments -->
     <h3>All Well Wishers 💖</h3>
     <div id="cusdis_thread"
       data-host="https://cusdis.com"
@@ -46,6 +53,13 @@
     </div>
   </div>
 
+  <!-- Background Music -->
+  <audio autoplay loop>
+    <source src="happy-birthday-song.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- Cusdis Script -->
   <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
 </body>
 </html>
