@@ -53,11 +53,13 @@
     </div>
   </div>
 
-  <!-- Background Music -->
-  <audio autoplay loop>
-    <source src="happy-birthday-song.mp3" type="audio/mpeg" />
-    Your browser does not support the audio element.
-  </audio>
+<button onclick="document.getElementById('bg-music').play()">🎵 Play Birthday Music</button>
+
+<audio id="bg-music" loop>
+  <source src="happy-birthday-song.mp3" type="audio/mpeg" />
+  Your browser does not support the audio element.
+</audio>
+
 
   <!-- Cusdis Script -->
   <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
